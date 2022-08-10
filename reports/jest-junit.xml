@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="1" failures="0" errors="0" time="0.181">
-  <testsuite name="__tests__/fakeTest.spec.js" errors="0" failures="0" skipped="0" timestamp="2022-08-10T20:21:21" time="0.153" tests="1">
-    <testcase classname="Fake Tests" name="runs successfully" time="0.001">
-    </testcase>
-  </testsuite>
-</testsuites>
