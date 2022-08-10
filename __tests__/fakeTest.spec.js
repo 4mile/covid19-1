@@ -5,6 +5,6 @@ describe("Fake Tests", () => {
         expect(value).toEqual(output)
     })
     test('runs successfully', ()=> {
-        expect(value).toEqual('boo')
+        expect(value).toEqual('hello world')
     })
 });
