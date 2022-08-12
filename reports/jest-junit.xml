@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="10" failures="0" errors="0" time="0.309">
+  <testsuite name="__tests__/validateJSON.spec.js" errors="0" failures="0" skipped="0" timestamp="2022-08-12T20:07:20" time="0.219" tests="5">
+    <testcase classname="Marketplace.json has valid JSON Schema" name="label property exists and is valid" time="0.019">
+    </testcase>
+    <testcase classname="Marketplace.json has valid JSON Schema" name="category_label property exists and is valid" time="0">
+    </testcase>
+    <testcase classname="Marketplace.json has valid JSON Schema" name="branding property exists and is valid" time="0.001">
+    </testcase>
+    <testcase classname="Marketplace.json has valid JSON Schema" name="models property exists and is valid" time="0">
+    </testcase>
+    <testcase classname="Marketplace.json has valid JSON Schema" name="constants property exists and is valid" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="__tests__/requiredFiles.spec.js" errors="0" failures="0" skipped="0" timestamp="2022-08-12T20:07:20" time="0.058" tests="5">
+    <testcase classname="Required Looker Block Files exist" name="License File Exists" time="0.001">
+    </testcase>
+    <testcase classname="Required Looker Block Files exist" name="READEME File Exists" time="0.001">
+    </testcase>
+    <testcase classname="Required Looker Block Files exist" name="Marketplace JSON Exists" time="0">
+    </testcase>
+    <testcase classname="Required Looker Block Files exist" name="Manifest File Exists" time="0">
+    </testcase>
+    <testcase classname="Required Looker Block Files exist" name="At Least One Dashboard File Exists" time="0">
+    </testcase>
+  </testsuite>
+</testsuites>
