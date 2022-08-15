@@ -1,27 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="10" failures="0" errors="0" time="0.309">
-  <testsuite name="__tests__/validateJSON.spec.js" errors="0" failures="0" skipped="0" timestamp="2022-08-12T20:07:20" time="0.219" tests="5">
-    <testcase classname="Marketplace.json has valid JSON Schema" name="label property exists and is valid" time="0.019">
+<testsuites name="jest tests" tests="11" failures="1" errors="0" time="0.412">
+  <testsuite name="__tests__/constantsMatch.spec.js" errors="0" failures="1" skipped="0" timestamp="2022-08-15T17:17:06" time="0.193" tests="1">
+    <testcase classname="Constants Match Between Manifest.lkml and Marketplace.json" name="Constants Match" time="0.009">
+      <failure>Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: true
+Received: false
+    at Object.toBe (/Users/calvincheng/Documents/projects/testing/covid19-1/__tests__/constantsMatch.spec.js:22:28)</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="__tests__/validateJSON.spec.js" errors="0" failures="0" skipped="0" timestamp="2022-08-15T17:17:07" time="0.12" tests="5">
+    <testcase classname="Marketplace.json has valid JSON Schema" name="label property exists and is valid" time="0.021">
     </testcase>
     <testcase classname="Marketplace.json has valid JSON Schema" name="category_label property exists and is valid" time="0">
     </testcase>
-    <testcase classname="Marketplace.json has valid JSON Schema" name="branding property exists and is valid" time="0.001">
+    <testcase classname="Marketplace.json has valid JSON Schema" name="branding property exists and is valid" time="0">
     </testcase>
     <testcase classname="Marketplace.json has valid JSON Schema" name="models property exists and is valid" time="0">
     </testcase>
-    <testcase classname="Marketplace.json has valid JSON Schema" name="constants property exists and is valid" time="0">
+    <testcase classname="Marketplace.json has valid JSON Schema" name="constants property exists and is valid" time="0.001">
     </testcase>
   </testsuite>
-  <testsuite name="__tests__/requiredFiles.spec.js" errors="0" failures="0" skipped="0" timestamp="2022-08-12T20:07:20" time="0.058" tests="5">
-    <testcase classname="Required Looker Block Files exist" name="License File Exists" time="0.001">
+  <testsuite name="__tests__/requiredFiles.spec.js" errors="0" failures="0" skipped="0" timestamp="2022-08-15T17:17:07" time="0.061" tests="5">
+    <testcase classname="Required Looker Block Files exist" name="License File Exists" time="0">
     </testcase>
-    <testcase classname="Required Looker Block Files exist" name="READEME File Exists" time="0.001">
+    <testcase classname="Required Looker Block Files exist" name="READEME File Exists" time="0">
     </testcase>
     <testcase classname="Required Looker Block Files exist" name="Marketplace JSON Exists" time="0">
     </testcase>
     <testcase classname="Required Looker Block Files exist" name="Manifest File Exists" time="0">
     </testcase>
-    <testcase classname="Required Looker Block Files exist" name="At Least One Dashboard File Exists" time="0">
+    <testcase classname="Required Looker Block Files exist" name="At Least One Dashboard File Exists" time="0.001">
     </testcase>
   </testsuite>
 </testsuites>
