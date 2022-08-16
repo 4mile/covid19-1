@@ -54,33 +54,3 @@ describe('Marketplace.json has valid JSON Schema', ()=> {
         expect(valid).toBe(true)
     })
 })
-
-
-// {
-//     "label": "Google BigQuery Performance",
-//     "category_label": "Models",
-//     "branding": {
-//       "image_uri": "https://marketplace-api.looker.com/block-icons/google-cloud.png",
-//       "tagline": "This Block provides a comprehensive overview of all cost and performance data for one or multiple BQ projects, enabling users to effectively monitor BigQuery usage down to a per user level. It can be used to set up alerts to long running or high cost queries."
-//     },
-  
-//     "constants": {
-//       "CONNECTION_NAME": {
-//         "label": "Connection Name",
-//         "value_constraint": "connection"
-//       },
-//       "SCHEMA_NAME": {
-//         "label": "Schema Name"
-//       },
-//       "AUDIT_LOG_EXPORT_TABLE_NAME": {
-//         "label": "Audit Log Export Table Name",
-//         "description": "The table name of your BQ Optimization data (typically cloudaudit_googleapis_com_data_access_*)."
-//       }
-//     },
-//     "models": [
-//       {
-//         "name": "block_bigquery_optimization_v2",
-//         "connection_constant": "CONNECTION_NAME"
-//       }
-//     ]
-//   }
