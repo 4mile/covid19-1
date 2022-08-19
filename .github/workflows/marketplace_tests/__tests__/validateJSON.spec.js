@@ -1,6 +1,6 @@
 const Ajv = require("ajv")
 const ajv = new Ajv() // options can be passed, e.g. {allErrors: true}
-const marketplace = require('../marketplace.json')
+const marketplace = require('../../../../marketplace.json')
 
 let schema = {
   type: "object",

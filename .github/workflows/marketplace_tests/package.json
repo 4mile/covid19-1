@@ -1,10 +1,10 @@
 {
+  "name": "ma_testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
     "test": "jest --ci --reporters=default --reporters=jest-junit"
-  },
-  "devDependencies": {
-    "jest": "^28.1.3",
-    "jest-junit": "^14.0.0"
   },
   "jest-junit": {
     "outputDirectory": "reports",
@@ -15,8 +15,13 @@
     "classNameTemplate": "{classname}",
     "titleTemplate": "{title}"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "ajv": "^8.11.0",
-    "lookml-parser": "6.5"
+    "jest": "^28.1.3",
+    "jest-junit": "^14.0.0",
+    "lookml-parser": "^6.6.1"
   }
 }

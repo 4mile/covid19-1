@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="7" failures="2" errors="0" time="0.47">
+  <testsuite name="__tests__/constantsMatch.spec.js" errors="0" failures="1" skipped="0" timestamp="2022-08-19T18:13:12" time="0.204" tests="1">
+    <testcase classname="Constants Match Between Manifest.lkml and Marketplace.json" name="Constants Match" time="0.008">
+      <failure>TypeError: Cannot read properties of undefined (reading &apos;constant&apos;)
+    at Object.constant (/Users/calvincheng/Documents/projects/testing/covid19-1/.github/workflows/marketplace_tests/__tests__/constantsMatch.spec.js:15:57)</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="__tests__/requiredFiles.spec.js" errors="0" failures="1" skipped="0" timestamp="2022-08-19T18:13:12" time="0.102" tests="1">
+    <testcase classname="Required Looker Block Files exist" name="License File Exists" time="0.002">
+      <failure>Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: true
+Received: false
+    at Object.toBe (/Users/calvincheng/Documents/projects/testing/covid19-1/.github/workflows/marketplace_tests/__tests__/requiredFiles.spec.js:11:28)
+    at Promise.then.completed (/Users/calvincheng/Documents/projects/testing/covid19-1/.github/workflows/marketplace_tests/node_modules/jest-circus/build/utils.js:333:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/calvincheng/Documents/projects/testing/covid19-1/.github/workflows/marketplace_tests/node_modules/jest-circus/build/utils.js:259:10)
+    at _callCircusTest (/Users/calvincheng/Documents/projects/testing/covid19-1/.github/workflows/marketplace_tests/node_modules/jest-circus/build/run.js:277:40)
+    at _runTest (/Users/calvincheng/Documents/projects/testing/covid19-1/.github/workflows/marketplace_tests/node_modules/jest-circus/build/run.js:209:3)
+    at _runTestsForDescribeBlock (/Users/calvincheng/Documents/projects/testing/covid19-1/.github/workflows/marketplace_tests/node_modules/jest-circus/build/run.js:97:9)
+    at _runTestsForDescribeBlock (/Users/calvincheng/Documents/projects/testing/covid19-1/.github/workflows/marketplace_tests/node_modules/jest-circus/build/run.js:91:9)
+    at run (/Users/calvincheng/Documents/projects/testing/covid19-1/.github/workflows/marketplace_tests/node_modules/jest-circus/build/run.js:31:3)
+    at runAndTransformResultsToJestFormat (/Users/calvincheng/Documents/projects/testing/covid19-1/.github/workflows/marketplace_tests/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:135:21)</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="__tests__/validateJSON.spec.js" errors="0" failures="0" skipped="0" timestamp="2022-08-19T18:13:12" time="0.12" tests="5">
+    <testcase classname="Marketplace.json has valid JSON Schema" name="label property exists and is valid" time="0.019">
+    </testcase>
+    <testcase classname="Marketplace.json has valid JSON Schema" name="category_label property exists and is valid" time="0.001">
+    </testcase>
+    <testcase classname="Marketplace.json has valid JSON Schema" name="branding property exists and is valid" time="0.001">
+    </testcase>
+    <testcase classname="Marketplace.json has valid JSON Schema" name="models property exists and is valid" time="0.001">
+    </testcase>
+    <testcase classname="Marketplace.json has valid JSON Schema" name="constants property exists and is valid" time="0">
+    </testcase>
+  </testsuite>
+</testsuites>

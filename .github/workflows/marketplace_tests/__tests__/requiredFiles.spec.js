@@ -1,5 +1,9 @@
 const fs = require('fs')
-const cwd = require('process').cwd();
+const process = require('process')
+
+// console.log(process.cwd())
+process.chdir('../../../')
+const cwd = process.cwd();
 
 describe('Required Looker Block Files exist', ()=> {
 
