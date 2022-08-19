@@ -12,7 +12,7 @@ describe('Constants Match Between Manifest.lkml and Marketplace.json', ()=>{
             readFileConcurrency: 4,
             // console: console
         })
-        let manifestConst = Object.keys(result.manifest.constant).map( item => item)
+        let manifestConst = Object.keys(result?.manifest?.constant).map( item => item)
         let marketplaceConst = Object.keys(marketplace.constants).map(item => item)
         let constMatch;
         if(JSON.stringify(manifestConst) === JSON.stringify(marketplaceConst)) {
