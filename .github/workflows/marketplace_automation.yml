@@ -22,9 +22,9 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - run: npm install
-      - working-directory: .github/workflows/marketplace_tests
+        working-directory: ./.github/workflows/marketplace_tests
       - run: npm test
-      - working-directory: ./.github/workflows/marketplace_tests
+        working-directory: ./.github/workflows/marketplace_tests
 
       - name: Test Report
         uses: dorny/test-reporter@v1
