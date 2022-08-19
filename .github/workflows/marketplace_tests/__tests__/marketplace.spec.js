@@ -12,7 +12,7 @@ let schema = {
     additionalProperties: true
   }
 
-describe('Required Looker Block Files exist', ()=> {
+describe('Marketplace Automation Tests', ()=> {
 
     test('License File Exists', ()=> {
         const fileExists = fs.existsSync(`${cwd}/LICENSE`);
