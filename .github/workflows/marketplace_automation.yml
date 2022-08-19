@@ -32,5 +32,11 @@ jobs:
         with:
           working-directory: ./.github/workflows/marketplace_tests
           name: JEST Tests            # Name of the check run which will be created
-          path: junit.xml            # Path to test results           path: reports/jest-*.xml    
+          path: reports/jest-*.xml    # Path to test results           path: reports/jest-*.xml    
           reporter: jest-junit        # Format of test results
+
+          # with:
+          # working-directory: ./.github/workflows/marketplace_tests
+          # name: JEST Tests            # Name of the check run which will be created
+          # path: junit.xml            # Path to test results           path: reports/jest-*.xml    
+          # reporter: jest-junit        # Format of test results
