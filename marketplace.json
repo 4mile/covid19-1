@@ -10,10 +10,6 @@
     "CONNECTION_NAME": {
       "label": "Connection Name",
       "value_constraint": "connection"
-    },
-    "MAPBOX_API_KEY": {
-      "label": "Connection Name",
-      "value_constraint": "connection"
     }
   },
   "models": [
