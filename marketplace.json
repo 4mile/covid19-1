@@ -4,13 +4,13 @@
   "branding": {
     "image_uri": "https://marketplace-api.looker.com/block-icons/covid_icon.png",
     "tagline": "Explore Public COVID-19 Datasets."
-  },
+  }
 
   "constants": {
     "CONNECTION_NAME": {
       "label": "Connection Name",
       "value_constraint": "connection"
-    }
+    },
     "MAPBOX_API_KEY": {
       "label": "Connection Name",
       "value_constraint": "connection"
